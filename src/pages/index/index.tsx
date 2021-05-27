@@ -9,6 +9,7 @@ const page = {
     options.a = '1'
   },
   onShow(){
+    //预期此处执行，实际未执行
     console.error('onShow')
   }
 }
